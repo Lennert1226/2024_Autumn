@@ -7,4 +7,3 @@ def home(): # 發出請求後會執行 home() 的函式
     return "<h1>hello world<h1/>" # 執行函式後會回傳特定的網頁內容，以HTML格式以方便瀏覽器來做網頁的展示
     
 app.run() # 執行
-
