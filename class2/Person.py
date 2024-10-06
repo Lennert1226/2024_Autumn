@@ -12,3 +12,8 @@ class Person():
     def Taiwanese(cls):
         return cls("black","black")
     
+American = Person.American()
+Taiwanese = Person.Taiwanese()
+
+American.introduce()
+Taiwanese.introduce()
